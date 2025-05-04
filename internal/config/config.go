@@ -2,7 +2,6 @@ package config
 
 import (
 	"encoding/json"
-	"fmt"
 	"os"
 )
 
@@ -55,7 +54,6 @@ func getJsonFilePath() (string, error) {
 		return "", err
 	}
 	configFileName := ".gatorconfig.json"
-
-	path += fmt.Sprintf("/Documents/GitHub/blog-aggregator-golang/%v", configFileName)
+	path += "/" + configFileName
 	return path, nil
 }

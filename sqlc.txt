@@ -1,0 +1,2 @@
+https://docs.sqlc.dev/en/latest/tutorials/getting-started-postgresql.html
+postgres://postgres:adamishere4you@localhost:5433/gator?sslmode=disable
